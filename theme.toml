@@ -1,0 +1,38 @@
+name = "Genius Mind"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = ""
+demosite = ""
+min_version = "0.0.1"
+
+tags = [
+  "blog",
+  "responsive",
+  "minimal",
+  "personal",
+  "light",
+  "dark",
+  "multilingual",
+  "landing",
+  "contact",
+  "dark mode",
+  "tailwindcss",
+]
+
+features = [
+  "Multi-Authors",
+  "Search",
+  "Multilingual",
+  "Dark Mode",
+  "Taxonomies",
+]
+
+[author]
+name = "bytebitlabs"
+homepage = "https://bytebitlabs.com"
+
+[original]
+author = "bytebitlabs"
+homepage = "https://bytebitlabs.com"
+repo = "https://github.com/bytebitlabs"

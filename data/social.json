@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "twitter",
+      "icon": "fab fa-x-twitter",
+      "link": "https://twitter.com/_genius_mind_"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://www.github.com/geniusmind-network"
+    },
+    {
+      "name": "discord",
+      "icon": "fab fa-discord",
+      "link": "https://discord.gg/MVvCuYe2FA"
+    }
+  ]
+}
