@@ -3,10 +3,12 @@
     overflow: hidden;
     width: 100vw;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 150pt;
+    left: 0pt;
     z-index: -1;
-    background: transparent url("/images/hero_1.png") no-repeat center contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
     animation-name: rotate;
     animation-duration: 24s;
