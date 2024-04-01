@@ -4,7 +4,7 @@
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center video-content">
+          <div class="lg:col-7 md:col-9 mb-8 text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
               {{ .title | markdownify }}
             </h1>
@@ -25,8 +25,8 @@
               {{ end }}
             {{ end }}
           </div>
-          <div class="col-12 video-docker absolute top-0 left-0 w-full h-full overflow-hidden p-0 -z-10">
-            {{ partial "components/multi-src-video.html" (dict "Src" .image) }}
+          <div class="col-12">
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
           </div>
         </div>
       </div>
@@ -43,8 +43,7 @@
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            <!-- minimal use -->
-            {{ partial "components/multi-src-video.html" (dict "Src" .image) }}
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
@@ -80,7 +79,7 @@
   <!-- /Features -->
 
   <!-- Testimonials -->
-  <!-- {{ with site.GetPage "sections/testimonial" }}
+  {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
       <section class="section">
         <div class="container">
@@ -140,6 +139,6 @@
         </div>
       </section>
     {{ end }}
-  {{ end }} -->
+  {{ end }}
   <!-- /Testimonials -->
 {{ end }}

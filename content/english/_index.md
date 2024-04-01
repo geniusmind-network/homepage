@@ -3,7 +3,7 @@
 banner:
   title: "Unleash the Power of Decentralized AI with Genius Mind Network"
   content: "GM is a revolutionary decentralized AI platform that enables efficient, secure, and scalable AI task processing for businesses and developers"
-  image: "videos/bg_light"
+  image: "images/hero_1.png"
   button:
     enable: false
     label: "Get Started"
@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "Revolutionizing AI Task Processing"
-    image: "videos/feat1"
+    image: "images/features/feat1.png"
     content: "The GM network is revolutionizing the way AI tasks are processed by leveraging a decentralized, scalable, and efficient architecture."
     bulletpoints:
       - "Decentralized AI task processing"
@@ -24,7 +24,7 @@ features:
       link: ""
 
   - title: "Harnessing the Potential of New and Existing Chains"
-    image: "videos/feat2"
+    image: "images/features/feat2.png"
     content: "At the core of the GM network are spoke chains, specialized blockchains optimized for specific AI domains."
     bulletpoints:
       - "Specialized blockchains for AI domains"
@@ -37,7 +37,7 @@ features:
       link: ""
 
   - title: "Empowering Developers with Seamless Integration"
-    image: "videos/feat3"
+    image: "images/features/feat3.png"
     content: "GM network empowers developers by providing a seamless integration process for AI task processing."
     bulletpoints:
       - "User-friendly API and comprehensive documentation"
@@ -50,7 +50,7 @@ features:
       link: "https://github.com/geniusmind-network"
   
   - title: "Ensuring Security and Privacy with Cutting-Edge Techniques"
-    image: "videos/feat4"
+    image: "images/features/feat4.png"
     content: "Security and privacy are paramount in the GM network, employing cutting-edge techniques to protect sensitive data."
     bulletpoints:
       - "Zero-Knowledge Proofs (ZKPs) for data confidentiality"
@@ -62,7 +62,7 @@ features:
       link: ""
 
   - title: "Unleashing the Potential of AI for Businesses"
-    image: "videos/feat5"
+    image: "images/features/feat5.png"
     content: "GM network unleashes the potential of AI for businesses of all sizes, providing a cost-effective and scalable solution."
     bulletpoints:
       - "Suitable for startups and enterprises"
@@ -75,7 +75,7 @@ features:
       link: "mailto:hello@geniusmind.network"
 
   - title: "Transparency and Fairness in AI Task Processing"
-    image: "videos/feat6"
+    image: "images/features/feat6.png"
     content: "GM network is committed to transparency and fairness in AI task processing, ensuring fair rewards and network integrity."
     bulletpoints:
       - "Incentive mechanism based on staking and reputation"
